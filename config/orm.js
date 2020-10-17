@@ -25,11 +25,11 @@ function objToSql(ob) {
     var value = ob[key];
     // check to skip hidden properties
     if (Object.hasOwnProperty.call(ob, key)) {
-      // if string with spaces, add quotations (Lana Del Grey => 'Lana Del Grey')
+      // if string with spaces, add quotations (Bacon Cheeseburger => 'Bacon Cheeseburger')
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
       }
-      // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
+      
       // e.g. {devoured: true} => ["devoured=true"]
       arr.push(key + "=" + value);
     }
@@ -88,11 +88,12 @@ var orm = {
       cb(result);
     });
   },
-  delete: function(table, condition, cb) {
+  delete: function(table, objColVals, cb) {
     var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
-    queryString += condition;
-
+    queryString += objToSql(objColVals);
+    
+    console.log(queryString);
     connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
