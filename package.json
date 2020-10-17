@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Trying to lose weight? This virtual burger application combines the use MySQL, Node, Express, Handlebars, as well as its very own homemade ORM (yum!) Don't bother with those pesky calories, Use this app to create and DEVOUR your very own virtual burger. Bon appetit!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbnewlon/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbnewlon/burger/issues"
+  },
+  "homepage": "https://github.com/kbnewlon/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
