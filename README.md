@@ -1,5 +1,5 @@
 # It's Come To This: A Virtual Burger Shack
-Quarantine keeping you from eating what you really want? This virtual burger application combines the use MySQL, Node, Express, Handlebars, as well as its very own homemade ORM (yum!) Don't bother with those pesky germs, Use this app to create and DEVOUR your very own virtual burger. Bon appetit!
+
 
 
 ![issues](https://img.shields.io/github/issues/kbnewlon/burger)
@@ -7,7 +7,7 @@ Quarantine keeping you from eating what you really want? This virtual burger app
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description 
-This application can be used to write, save, and delete notes. Note-taker uses an express backend as well as it saves and retrieves note data from a JSON file. 
+Quarantine keeping you from eating what you really want? This virtual burger application combines the use MySQL, Node, Express, Handlebars, as well as its very own homemade ORM (yum!) Don't bother with those pesky germs, Use this app to create and DEVOUR your very own virtual burger. Bon appetit!
 
 ## Table of Contents 
 * [Installation](#Installation)
@@ -28,7 +28,7 @@ This application can be used to write, save, and delete notes. Note-taker uses a
 6. Navigate to that URL in your browser
 
 ## Usage
-1. Click Get Started to begin the program
+1. Type in a burger that you'd like to eat and click submit 
 2. Enter new note title on Note Title
 3. Enter new text on Note Text
 4. Save note using button on top right
@@ -45,7 +45,7 @@ No guidelines at this time
 No tests available 
 
 ## Visuals
-![screenshot of "It's Come To This"]()
+![screenshot of "It's Come To This"](assets/burger.png)
 ![screenshot of "It's Come To This"]()
 ## Links
 To Repo: https://github.com/kbnewlon/burger
