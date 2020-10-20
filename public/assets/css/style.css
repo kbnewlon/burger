@@ -1,0 +1,30 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: yellow;
+  color: black;
+  list-style-type: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+img {
+  width:100%;
+  margin-bottom: 40px;
+}
+
+h1 {
+  padding-top: 10px;
+}
