@@ -18,19 +18,17 @@ Quarantine keeping you from eating what you really want? This virtual burger app
 * [Questions](#Questions)
 
 ## Installation
-1. Run npm install in your terminal
-2. Run sh heroku create
-3. Run sh git push heroku main
-4. Log into your Heroku account 
-5. Click settings, then Domains.
-6. Navigate to that URL in your browser
+1. Use 'git clone https://github.com/kbnewlon/burger' to clone the repo
+2. Install necessary dependencies with 'npm install'
+3. Start the program with 'npm start' or 'node server.js'
 
 ## Usage
 1. Type in a burger that you'd like to eat and click submit 
-2. Enter new note title on Note Title
-3. Enter new text on Note Text
-4. Save note using button on top right
-6. Saved notes will appear on the left side of the screen
+2. Click 'Eat Me!' to devour the burger
+3. Click 'Order on the Fly!' to order more
+4. 'Sell it' will sell the order off your screen
+6. Don't worry about the pesky calories!
+7. Enjoy!
 
 
 ## License
@@ -46,7 +44,7 @@ No tests available
 ![screenshot of "It's Come To This"](assets\screenshot_burger_app.PNG)
 ## Links
 To Repo: https://github.com/kbnewlon/burger
-<br>Visit the deployed app on Heroku to demo: https://kbnewlon-note-taker.herokuapp.com/
+<br>Visit the deployed app on Heroku to demo: https://a-virtual-burger-shack.herokuapp.com/
  
 
 ## Questions 
@@ -54,9 +52,4 @@ Please contact me if you have any questions at:
 <br>Email: kbnewlon@hotmail.com
 <br>Github: https://github.com/kbnewlon
 
-
-
-### Important
-
-* **This assignment must be deployed.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
 
