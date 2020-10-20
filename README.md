@@ -1,7 +1,5 @@
 # It's Come To This: A Virtual Burger Shack
 
-
-
 ![issues](https://img.shields.io/github/issues/kbnewlon/burger)
 ![GitHub top language](https://img.shields.io/github/languages/top/kbnewlon/burger)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -45,8 +43,7 @@ No guidelines at this time
 No tests available 
 
 ## Visuals
-![screenshot of "It's Come To This"](assets/burger.png)
-![screenshot of "It's Come To This"]()
+![screenshot of "It's Come To This"](assets\screenshot_burger_app.PNG)
 ## Links
 To Repo: https://github.com/kbnewlon/burger
 <br>Visit the deployed app on Heroku to demo: https://kbnewlon-note-taker.herokuapp.com/

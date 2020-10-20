@@ -1,7 +1,9 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: yellow;
+  color: black;
+  list-style-type: none;
 }
 
 .label {
@@ -11,9 +13,18 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+
 }
 
 .form-group {
   margin-bottom: 5px;
+}
+
+img {
+  width:100%;
+  margin-bottom: 40px;
+}
+
+h1 {
+  padding-top: 10px;
 }

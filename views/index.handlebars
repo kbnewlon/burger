@@ -1,7 +1,7 @@
-<main class="p-3 mb-2 bg-success text-white">
+<main class="container">
 
-  <section class="row">
-    
+  <section class="row  border-top center-section">
+
 
     <article class="col-sm-12 text-center" id="top-bar">
 
@@ -10,10 +10,10 @@
     </article>
 
   </section>
-
+  <br><br>
   <section class="row  border-bottom center-section">
 
-    <article class="col-lg-5">
+    <article class="col-lg-6">
 
       <h2>Current Menu</h2>
 
@@ -26,16 +26,6 @@
         {{/each}}
 
       </ul>
-
-    </article>
-
-    <article>
-
-      <img src="../public/assets/images/burger.png" alt="burger">
-
-    </article>
-
-    <article class="col-lg-5">
 
       <h2>Burgers You've Eaten</h2>
 
@@ -51,32 +41,41 @@
 
     </article>
 
-  </section>
 
-  <section class="row  border-bottom center-section">
+    <article class="col-lg-6">
 
-    <article class="col-lg-12">
-
-      <h2>What kind of burger would you like?</h2>
-
-      <form class="create-form burger-form">
-
-
-        <div class="form-group">
-
-          <label for="ca">Burger creator: </label>
-
-          <input type="text" id="ca" name="name">
-
-        </div>
-
-
-        <button type="submit">Order here!!</button>
-
-      </form>
+      <img src="/assets/images/burger.png" alt="burger" class="img-thumbnail">
 
     </article>
 
+    <br>
   </section>
-  
+
+  <section>
+
+
+    <section class="row">
+
+      <article class="col-lg-12 text-center">
+
+        <h2>What kind of burger would you like?</h2>
+
+        <form class="create-form burger-form">
+
+          <div class="form-group">
+
+            <input type="text" id="ca" name="name">
+
+          </div>
+
+          <button type="submit">Order here!!</button>
+
+        </form>
+
+      </article>
+
+    </section>
+
+  </section>
+
 </main>
