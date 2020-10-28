@@ -41,7 +41,7 @@ No guidelines at this time
 No tests available 
 
 ## Visuals
-![screenshot of "It's Come To This"](assets\screenshot_burger_app.PNG)
+![screenshot of "It's Come To This"](assets/screenshot_burger_app.PNG)
 ## Links
 To Repo: https://github.com/kbnewlon/burger
 <br>Visit the deployed app on Heroku to demo: https://a-virtual-burger-shack.herokuapp.com/
